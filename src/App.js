@@ -1,7 +1,11 @@
+import Navbar from "./navbar";
+
 function App() {
   return (
     <div className="App">
-      My Airbnb clone
+      <Navbar/>
+      <div>
+      </div>
     </div>
   );
 }
