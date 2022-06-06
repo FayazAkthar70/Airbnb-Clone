@@ -1,12 +1,12 @@
-import Logo from './Airbnb-Logo.png';
-import Group from './Group.png';
+import Logo from './assets/Airbnb-Logo.png';
+import Group from './assets/Group.png';
 function Navbar (){
     return (
         <div>
-            <nav class="navbar navbar-light bg-light shadow">
-                <div class="container-fluid p-1 mx-4">
-                    <a class="navbar-brand" href="#">
-                    <img src={Logo} alt="Airbnb logo" width="150" class="d-inline-block align-text-top"/>
+            <nav className="navbar navbar-light bg-light shadow">
+                <div className="container-fluid p-1 mx-4">
+                    <a className="navbar-brand" href="#">
+                    <img src={Logo} alt="Airbnb logo" width="150" className="d-inline-block align-text-top"/>
                     </a>
                 </div>
             </nav>

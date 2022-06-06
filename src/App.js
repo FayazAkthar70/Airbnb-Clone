@@ -1,9 +1,11 @@
 import Navbar from "./navbar";
+import {CardList} from "./cards";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar/> 
+      <CardList/>
     </div>
   );
 }
